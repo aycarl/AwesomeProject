@@ -15,15 +15,17 @@ const styles = StyleSheet.create({
     flex: 2,
     flexDirection: "row",
     justifyContent: "space-around",
-    height: 100,
+    alignItems: "center",
     backgroundColor: "#e1e1e1"
   },
   sunset: {
-    width: 50,
+    width: 100,
+    height: 100,
     backgroundColor: "#4271B3"
   },
   sunrise: {
     width: 100,
+    height: 100,
     backgroundColor: "#395B50"
   }
 })
